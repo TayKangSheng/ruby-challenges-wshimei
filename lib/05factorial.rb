@@ -9,3 +9,12 @@
 #
 # > 120
 #
+
+# EVERY RECURSION NEED TWO THING
+# BASE CASE = WHEN TO STOP
+# RECURSION CASE = WHAT HAPPENED IF IT DONESNT STOP
+
+def factorial(n)
+  p(1..n).to_a.reduce(1, :*)
+end
+factorial(5)
